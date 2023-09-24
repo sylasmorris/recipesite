@@ -1,0 +1,28 @@
+.recipe-info {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+
+.recipe-info > h1 {
+    color: $link-hover;
+    justify-content: center;
+}
+
+.descr {
+    padding: .5rem;
+}
+
+.instr {
+    padding: .5rem;
+}
+
+.inglist {
+    display: flex;
+}
+
+.ing {
+    font-weight: bold;
+    padding: .25rem;
+    flex: 50%;
+}
